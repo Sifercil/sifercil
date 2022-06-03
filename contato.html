@@ -47,20 +47,21 @@
 												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116912.04313194628!2d-46.46622875937741!3d-23.693784196973713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6d00aafd1e81%3A0xc51dec6c655d6878!2sRibeir%C3%A3o%20Pires%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1605140441935!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
 												</iframe>
 											<h3>Contato</h3>
-												<form>
+												<form action="/send" method="post" target="_blank" enctype="multipart/form-data">
 													<fieldset>
 														<P>Dados cliente</p>
-														<p>Nome</p>
-														<p>email</p>
-														<p>telefone</p>
-													</fieldset>
-													<fieldset>
-														<p>Dados da empresa</p>
-														<p>Nome</p>
-														<p>email@empresa.com.br</p>
-														<p>Telefone</p>	
-														<p>endereço</p>
-														<p>cnpj</p>
+														<label>Nome</label>
+														<input type="text" name="Nome">
+														<label>e-mail</label>
+														<input type="email" name="email">
+														<label>Telefone</label> 
+														<input type="tel" name="telefone">
+														<label>endereço </label>
+														<input type="text" name="endereco">
+														<label>Mensagem</label>
+														<textarea name="descrisao" id="" cols="100" rows="10"></textarea> </br>	
+														<label>Enviar </label>
+														<input type="submit" value="OK">
 													</fieldset>
 												</form>
 										</div>
