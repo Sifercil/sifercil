@@ -8,7 +8,7 @@ h1{
 h2, h3 {
 	color: rgba(208,166,79);
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 }
 p{
 	color: rgba(38, 54, 66, 0.904) ;
@@ -34,7 +34,7 @@ body{
 #interface{
 	position: absolute;
 	width: 100%;
-	
+	font-family: "Bitstream Vera Sans","Trebuchet MS", "Verdana Ref", sans-serif;
 }
 
 /*CABECALHO*/
@@ -68,7 +68,7 @@ nav.menu{
     display: inline-block;
 	position: absolute;
 	right: 200px;
-	top: 5px;
+	top: 15px;
 }
 nav.menu ul li{
 	display: inline;
@@ -84,42 +84,36 @@ nav.menu li a:hover{
 
 /*CORPO*/
 #corpo{
-	position: relative;
-	bottom: 20px;
-    display: block;
-    width: 1200px;
+	width: 1000px;
     text-align: center;
-    font-family: "Bitstream Vera Sans","Trebuchet MS", "Verdana Ref", sans-serif;
-    background-color: rgba(255, 255, 255, 1.0);
+    background-color: rgba(255, 255, 255, 0.932);
     box-shadow: 1px 2px 20px rgb(208 166 79);
-    margin: 0 auto;
+    margin:120px 300px 30px 300px;
 }
 header.cabecalho-corpo-home{
 text-shadow: .2rem .1rem 2px rgba(0,0,0,0.6);
-
 }
 .img-wrapper{
 	background-color: rgba(0,0,0,0.9);
 	position: relative;
-	width: 1200px;
-	height: 78vh;
+	width: 1000px;
+	height: 70vh;
 	
 }
 .img-wrapper img{
 	object-fit: cover;
     opacity: 0.5;
-    width: 75vw;
-    height: 78vh;
+    width: 1000px;
+    height: 70vh;
 }
 .banner{
-	font-weight: 700;
+	font-weight: 800;
     line-height: 5rem;
     position: absolute;
     display: inline-block;
-    width: 820px;
-    height: 410px;
-    top: 100px;
-    right: 200px;
+    width: 100%;
+    top: 200px;
+	left: 25px;
 }
 button{
 	text-transform: uppercase;
@@ -132,11 +126,11 @@ button{
 	background: -webkit-linear-gradient(to right, #243B55, #000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #243B55, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-article{
+.secao-home{
 display: block;	
-	
+width: 100%;	
 }
-
+.s
 /*RODAPE*/
 #rodape{
 	width: 100%;
@@ -182,6 +176,7 @@ display: block;
 	text-align: center;
 	color: #D0A64F;
 }
+
 /*Botao WhatsApp - FlexBox*/
 #div-fixa{
 	position: fixed;
