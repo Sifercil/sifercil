@@ -126,11 +126,11 @@ button{
 	background: -webkit-linear-gradient(to right, #243B55, #000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #243B55, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-article{
+.secao-home{
 display: block;	
 width: 100%;	
 }
-
+.s
 /*RODAPE*/
 #rodape{
 	width: 100%;
