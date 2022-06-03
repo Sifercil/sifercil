@@ -1,0 +1,94 @@
+/*
+-- Estilos CSS - Website da Empresa
+*/
+
+/*
+-- Padrões e Reset
+*/
+
+/*
+-- Tipografia e Cores
+*/
+
+/*
+-- Estrutura
+*/
+
+/*
+-- Estilos específicos de Seção
+
+#rodape{
+	background: rgba(38, 54, 66, 0.7);
+	text-align: center;
+	width: 100%;
+	position: absolute;
+
+}
+.lista ul li {
+text-decoration: none;
+}
+section.rodape{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding: 2px;
+	line-height: 1.5rem;
+}
+.empresa{
+	position: relative;
+	right: 20%;
+}
+.servicos{
+	position: relative;
+}
+.contato {
+	position: relative;
+	left: 15%;
+}
+.contato li{
+	display: inline;
+}
+#rodape p{
+	color: rgba(208,166,79);
+	border: none;
+	list-style: none;
+}
+img.redes{
+	width: 40px;
+	height: 40px;	
+	background-color: rgba(208,166,79);
+	border-radius: 15px 1px 15px 1px;
+}
+div.dautorais{
+	border-top: 1px solid rgba(208,166,79);;
+	color: rgba(208,166,79);
+}
+.whats{
+	height: 80px; 
+	position: fixed; 
+	bottom: 25px; 
+	right: 25px;
+	z-index:99999;
+}
+*/
+
+/*
+-- Formulários
+*/
+
+/*
+-- Tabelas
+*/
+
+/*
+-- Classes de Uso Geral
+	<!--Inicio botao Whatsapp-->
+		<a href="https://api.whatsapp.com/send?l=pt&amp;phone=5541999999"><img class="whats"src="https://img.icons8.com/officel/480/000000/whatsapp.png"data-selector="img"></a>
+		<!--Fim botao Whatsapp-->
+
+
+*/
+
+
+
+	

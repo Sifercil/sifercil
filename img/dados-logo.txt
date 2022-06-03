@@ -1,0 +1,7 @@
+GIMP = https://www.youtube.com/watch?v=VADHdoPwKtw 	
+cores
+Azul = 
+Logo 
+
+Escala 1920X1920
+Transparent
